@@ -107,7 +107,7 @@ const MovieInfoComponent = (props) =>{
               Plot: <span>{movieInfo?.Plot}</span>
             </MovieInfo>
     </InfoColumn>
-    <close onClick={()=> props.onMovieSelect()}>X</close>
+    <Close onClick={()=> props.onMovieSelect()}>X</Close>
     </>:"Loading...."}
     
   </Container>
